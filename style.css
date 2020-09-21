@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Montserrat',sans-serif;
   padding: 0;
   margin: 0;
   background-color: white;
@@ -12,7 +12,7 @@ body {
 .navbar {
   width: 100%;
   background-color: #0c62fb;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .navbar-brand {
@@ -35,6 +35,10 @@ body {
  margin:30px 0;
 }
 
+label {
+  font-weight: bold;
+}
+
 
 .marker {
 background-color:white;
@@ -54,7 +58,7 @@ font-weight: bold;
 
 .bs {
   width:100%;
-  min-height:500px;
+  min-height:400px;
   display:flex;
   align-items:center;
   justify-content:flex-start;
@@ -105,8 +109,8 @@ h3 {
 }
 
 img {
-  width: 12%;
-  margin: 50px 0;
+  width: 10%;
+  margin: 15px 0;
 }
 
 
@@ -119,9 +123,9 @@ img {
 }
 
 
-h4 {
-  font-size: 16px;
-  margin: 10px 0;
+p {
+  font-size: 14px;
+  margin: 20px 0;
 }
 
 .bren {
