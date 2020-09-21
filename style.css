@@ -24,15 +24,41 @@ body {
 }
 .red {
  background-color:#0c62fb;
- width:700px;
+    width: 100%;
  min-height:50px;
  padding: 10px 0;
  display:flex;
+ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
  align-items:center;
  flex-wrap: wrap;
  justify-content:space-around;
  color:white;
- margin:30px 0;
+ margin:20px 0;
+}
+
+
+.white {
+      background-color: white;
+    max-width: 100%;
+    min-height: 50px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin: 20px 0;
+}
+
+.white i {
+  color:black;
+}
+.white h1 {
+  color:black;
+  font-weight: bold;
 }
 
 label {
@@ -54,8 +80,42 @@ font-weight: bold;
   font-weight: bold;
   transition: 0.5s linear;
 }
+.marker h1 {}
+
+.marks {
+border: 2px solid #0c62fb;
+padding:10px 20px;
+color: black;
+background-color: transparent;
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+font-weight: bold;
+
+}
 
 
+.white {
+      background-color: white;
+    max-width: 100%;
+    min-height: 50px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin: 20px 0;
+}
+
+.white i {
+  color:black;
+}
+.white h1 {
+  color:black;
+  font-weight: bold;
+}
 .bs {
   width:100%;
   min-height:400px;
@@ -68,10 +128,12 @@ font-weight: bold;
 
 input {
 width:300px;
-min-height:40px;
+min-height:50px;
 border:none;
 background-color:white;
 margin:20px 0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
 
 
 }
@@ -104,15 +166,25 @@ color:red;
 
 h3 {
   color: black;
-  font-weight: bold;
+  font-weight: normal;
+  padding: 10px 0;
   font-family: 'Lato',sans-serif;
 }
 
 img {
-  width: 10%;
-  margin: 15px 0;
+  width: 15%;
+
+  margin: 20px 0;
 }
 
+.conta {
+  width:100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .image {
   width:100%;
