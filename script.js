@@ -3,13 +3,15 @@
 let menu = document.querySelector(".conta");
 let btn1 = document.querySelector(".btn");
 let btn2 = document.querySelector(".btn3");
- 
+ let second = document.querySelector(".bs");
+
  let irp = document.querySelector(".date");
 let inp = document.querySelector(".input");
 let bsd = document.querySelector(".sss");
 let brs  = document.querySelector(".marker");
 let idp  = document.querySelector(".input2");
-
+let error  = document.querySelector("#alert");
+ let b =document.getElementById("blue");
 
 
 
@@ -59,6 +61,21 @@ let addBr = (item) => {
   ttt.className = "marker";
   ttt.innerHTML = "Remove";
   br.appendChild(ttt);
+
+if(inp.value === ""  && idp.value === "" && irp.value === "") 
+{  
+ menu.removeChild(sd);
+sd.removeChild(br);
+
+
+} 
+
+
+else {
+      sd.appendChild(br);
+       menu.appendChild(sd);
+
+}
 
 
 
